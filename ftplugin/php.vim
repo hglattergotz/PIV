@@ -43,9 +43,9 @@ let PHP_autoformatcomment = 1
 let php_sync_method = -1
 
 " Section: variable init calls {{{2
-call s:InitVariable("g:load_doxygen_syntax", 1)
-call s:InitVariable("g:syntax_extra_php", 'doxygen')
-call s:InitVariable("g:syntax_extra_inc", 'doxygen')
+"call s:InitVariable("g:load_doxygen_syntax", 1)
+"call s:InitVariable("g:syntax_extra_php", 'doxygen')
+"call s:InitVariable("g:syntax_extra_inc", 'doxygen')
 call s:InitVariable("g:PIVCreateDefaultMappings", 1)
 call s:InitVariable("g:PIVPearStyle", 0)
 call s:InitVariable("g:PIVAutoClose", 0)

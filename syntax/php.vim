@@ -498,9 +498,9 @@ syn keyword phpTodo todo fixme xxx note contained
 
 " Comment
 if exists("php_parent_error_open")
-  syn region phpComment start="/\*" end="\*/" contained contains=phpTodo
+  syn region phpComment start="/\*[*!]" end="\*/" contained contains=phpTodo
 else
-  syn region phpComment start="/\*" end="\*/" contained contains=phpTodo extend
+  syn region phpComment start="/\*[*!]" end="\*/" contained contains=phpTodo extend
 endif
 if version >= 600
   syn match phpComment  "#.\{-}\(?>\|$\)\@="  contained contains=phpTodo
